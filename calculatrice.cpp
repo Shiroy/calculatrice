@@ -22,16 +22,22 @@ int main()
 		float resultat = a + b;
 		cout << "a + b = " << resultat << endl;
 	}
-	else if(c=='-')
+	else if(c == '-')
 	{
-		float resul = a-b;
+		float result = a - b;
 		cout << "a - b = " << result << endl;
 	}
 
-	else if(c=='*')
+	else if(c == '*')
 	{
-		float resul = a*b;
+		float result = a * b;
 		cout << "a * b = " << result << endl;
+	}
+	
+	else if(c == '/')
+	{
+		float result = a / b;
+		cout << "a / b = " << result << endl;
 	}
 
 	//TODO : Voir le bug tracker
